@@ -1,0 +1,23 @@
+{
+  "name": "wazotest",
+  "version": "1.0.0",
+  "description": "",
+  "main": "background.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Cheikh-Tidiane1/wazotest.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Cheikh-Tidiane1/wazotest/issues"
+  },
+  "homepage": "https://github.com/Cheikh-Tidiane1/wazotest#readme",
+  "dependencies": {
+    "@wazo/euc-plugins-sdk": "^0.0.23"
+  }
+}
