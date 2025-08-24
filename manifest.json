@@ -1,19 +1,19 @@
 {
   "manifestVersion": "0.1",
-  "version": "1.0.1",
-  "id": "wazoplug2025",
-  "packageName": " com.ebtest.wazopluginv0",
+  "version": "1.0.0",
+  "id": "wda-incoming-call-modal",
+  "packageName": "io.wazo.wda.incoming-call-modal",
   "productType": "app",
-  "name": {
-    "short": "wazopluginv0",
-    "full": "wazopluginv0 - Incoming Call Modal"
+  "name" : {
+    "short": "Example - Incoming Call Modal",
+    "full": "Example - Incoming Call Modal"
   },
   "developer": {
-    "name": "Cndiaye"
+    "name": "Wazo Inc"
   },
   "description": {
-    "short": "Incoming Call Modal",
-    "full": "Incoming Call Modal"
+    "short": "Example on how to implement: Incoming Call Modal",
+    "full": "Example on how to implement: Incoming Call Modal"
   },
   "icons": {
     "color": "https://avatars.githubusercontent.com/u/68688703?s=200&v=4"
