@@ -1,10 +1,10 @@
 {
   "manifestVersion": "0.1",
   "version": "1.0.0",
-  "id": "wda-incoming-call-modal",
-  "packageName": "io.wazo.wda.incoming-call-modal",
+  "id": "wdame12-incoming-call-modal",
+  "packageName": "io.github.cheikh-tidiane1.wazotest",
   "productType": "app",
-  "name" : {
+  "name": {
     "short": "Example - Incoming Call Modal",
     "full": "Example - Incoming Call Modal"
   },
