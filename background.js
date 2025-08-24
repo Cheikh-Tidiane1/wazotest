@@ -2,19 +2,17 @@ import { App } from "https://cdn.jsdelivr.net/npm/@wazo/euc-plugins-sdk@latest/l
 
 const app = new App();
 
-app.onInit = () => {
-  console.log("Plugin initialized ✅");
-
-  app.onCallIncoming = (call) => {
-    console.log("Incoming call detected:", call);
-
-    app.displayModal({
-      title: `Incoming call for ${call.displayName || "Unknown"}`,
-      text: `Number: ${call.number || "N/A"}`,
-      height: "50%",
-      width: "70%",
-    });
-  };
+app.onCallIncoming = (call) => {
+  console.log("Incoming call received:", call);
+  app.displayModal({
+    title: `Incoming call for ${call.displayName || "Unknown"}`,
+    text: `Number: ${call.number || "N/A"}`,
+    height: "50%",
+    width: "70%",
+  });
 };
 
-app.initialize();
+(async () => {
+  await app.initialize();
+  console.log("App initialized");
+})();
