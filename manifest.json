@@ -1,8 +1,8 @@
 {
   "manifestVersion": "0.1",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "id": "wdame12-incoming-call-modal",
-  "packageName": "io.github.cheikh-tidiane1.wazotest",
+  "packageName": "io.github.cheikh-tidiane1",
   "productType": "app",
   "name": {
     "short": "Example - Incoming Call Modal",
