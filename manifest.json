@@ -1,22 +1,22 @@
 {
   "manifestVersion": "0.1",
-  "version": "2.0.0",
-  "id": "wdame12-incoming-call-modal",
-  "packageName": "io.github.wazotest",
+  "version": "1.0.0",
+  "id": "mon-unique-plugin-incoming-call-modal",
+  "packageName": "io.github.mon-unique-plugin.incoming-call-modal",
   "productType": "app",
   "name": {
-    "short": "Example - Incoming Call Modal",
-    "full": "Example - Incoming Call Modal"
+    "short": "Mo - Incoming Call Modal",
+    "full": "Mol - Incoming Call Modal"
   },
   "developer": {
-    "name": "Wazo Inc"
+    "name": "cheikh-tidiane1"
   },
   "description": {
-    "short": "Example on how to implement: Incoming Call Modal",
-    "full": "Example on how to implement: Incoming Call Modal"
+    "short": "Exemple de modal pour appels entrants",
+    "full": "Exemple de modal pour appels entrants"
   },
   "icons": {
-    "color": "https://avatars.githubusercontent.com/u/68688703?s=200&v=4"
+    "color": "https://img.icons8.com/ios-glyphs/30/phone-disconnected.png"
   },
-  "backgroundScript": "./background.js"
+  "backgroundScript": "https://cheikh-tidiane1.github.io/wazotest/manifest.json"
 }
